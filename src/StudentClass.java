@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-class Student {
+public class StudentClass {
     String name;
     int rollNo;
 
-    Student(String name, int rollNo) {
+    StudentClass(String name, int rollNo) {
         this.name = name;
         this.rollNo = rollNo;
     }
@@ -18,8 +18,8 @@ class Student {
         String name2 = sc.next();
         int rollNo2 = sc.nextInt();
 
-        Student s1 = new Student(name1, rollNo1);
-        Student s2 = new Student(name2, rollNo2);
+        StudentClass s1 = new StudentClass(name1, rollNo1);
+        StudentClass s2 = new StudentClass(name2, rollNo2);
 
         System.out.println("Name: " + s1.name + " Roll: " + s1.rollNo);
         System.out.println("Name: " + s2.name + " Roll: " + s2.rollNo);
